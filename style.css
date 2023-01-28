@@ -64,13 +64,12 @@ nav ul li a {
 .img1 {
   position: absolute;
   height: 680px;
-  right: 3.06%;
-  top: calc(50% - 680px / 2 + 60px);
+  left: 51.66%;
+  top: 120px;
 }
 .icon1 {
   position: absolute;
   left: 50%;
-
   top: 91.25%;
   /* bottom: 0%; */
 }
@@ -86,7 +85,7 @@ nav ul li a {
   height: 80px;
   left: 10%;
   /* right: 60.07%; */
-  top: 37.25%;
+  top: 298px;
   margin-bottom: px;
 }
 
@@ -101,7 +100,7 @@ nav ul li a {
   height: 44px;
   left: 10%;
   /* right: 42.99%; */
-  top: 51.75%;
+  top: 388px;
 }
 
 .button {
@@ -112,7 +111,7 @@ nav ul li a {
   width: 170px;
   height: 66px;
   left: 10%;
-  top: 63.75%;
+  top: 457px;
    cursor: pointer;
 }
 .btn-a {
@@ -422,6 +421,15 @@ font-family: 'Gothic A1', sans-serif;
   padding: 40px 0;
   text-align: center;
   gap: 40.32px;
+}
+.width-change {
+    width: 395px;
+}
+.width-change {
+    width: 395px;
+}
+.width-change1 {
+    width: 465px;
 }
 .button-box {
   display: flex;
