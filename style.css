@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -45,7 +46,7 @@ nav ul {
   cursor: pointer;
 }
 nav ul li {
-  font-family: "Gothic A1";
+ font-family: 'Gothic A1', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -75,7 +76,7 @@ nav ul li a {
 }
 
 .momentum h1 {
-  font-family: "Gothic A1";
+  font-family: 'Gothic A1', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 80px;
@@ -90,7 +91,7 @@ nav ul li a {
 }
 
 .momentum h2 {
-  font-family: "Gothic A1";
+ font-family: 'Gothic A1', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -112,9 +113,10 @@ nav ul li a {
   height: 66px;
   left: 10%;
   top: 63.75%;
+   cursor: pointer;
 }
 .btn-a {
-  font-family: "Gothic A1";
+ font-family: 'Gothic A1', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -143,7 +145,7 @@ nav ul li a {
   justify-content: end;
 }
 .txt-gray {
-  font-family: "Gothic A1";
+font-family: 'Gothic A1', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -153,8 +155,11 @@ nav ul li a {
   text-transform: uppercase;
   color: #a8a8a8;
 }
+.mgb-20{
+    margin-bottom:20px;
+}
 .title1 {
-  font-family: "Gothic A1";
+ font-family: 'Gothic A1', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 38px;
@@ -166,8 +171,7 @@ nav ul li a {
 .big-container {
   width: 100%;
   height: 4739.73px;
-  background-color: yellow;
-  display: flex;
+   display: flex;
   flex-direction: column;
   gap: 160px;
   /* align-items: center; */
@@ -195,9 +199,10 @@ nav ul li a {
   text-align: left;
   gap: 30px;
   align-self: center;
+  /* background-color: greenyellow; */
 }
 .paragraph1 {
-  font-family: "Gothic A1";
+ font-family: 'Gothic A1', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -206,13 +211,11 @@ nav ul li a {
   margin-top: -8px;
   /* width:38.76%; */
 }
-/* .pd-86 {
-      padding-right:86px;
-}
-
-.pd-90 {
-     padding-right:90px;
+/* .pd86 {
+      padding: 0 90px 0 58px;
 } */
+
+
 .image-box {
   width: 38.75%;
   height: 637px;
@@ -252,7 +255,7 @@ nav ul li a {
   height: 209px;
 }
 .title2 {
-  font-family: "Gothic A1";
+font-family: 'Gothic A1', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -286,7 +289,7 @@ nav ul li a {
   gap: 10px;
 }
 .title3 {
-  font-family: "Gothic A1";
+ font-family: 'Gothic A1', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 59px;
@@ -303,7 +306,7 @@ nav ul li a {
   width: 31.25%;
   display: flex;
   flex-direction: column;
-  padding-left: 58px;
+  /* padding-left: 58px; */
   text-align: left;
   gap: 30px;
   align-self: center;
@@ -312,12 +315,17 @@ nav ul li a {
   margin-right: 20px;
 }
 .pd-62 {
-  padding-right: 62px;
+  margin-right: 62px;
+}
+.pdl-62 {
+  margin-left: 62px;
 }
 .pd-23 {
-  padding-top: 62px;
+  padding-top: 62px; 
 }
-
+/* .justify-txt {
+      text-align: justify; 
+ } */
 /* Container 8 */
 .container4 {
   width: 90%;
@@ -338,7 +346,7 @@ nav ul li a {
   text-align: center;
 }
 .paragraph2 {
-  font-family: "Gothic A1";
+  font-family: 'Gothic A1', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -405,7 +413,7 @@ nav ul li a {
   position: absolute;
   left: 36.32%;
   top: 124px;
-  width: 25.35%;
+  width: 27.34%;
   height: 234px;
   z-index: 2;
   display: flex;
@@ -427,6 +435,7 @@ nav ul li a {
   border: none;
   width: 190px;
   height: 66px;
+   cursor: pointer;
 }
 .button2 {
   background: none;
@@ -434,50 +443,94 @@ nav ul li a {
   border: 1px solid #b04bb3;
   width: 171px;
   height: 66px;
+   cursor: pointer;
 }
 /* Section 12 */
 .section-12 {
-    width: 100%;
+  width: 100%;
   height: 463px;
   display: flex;
   justify-content: center;
-   text-align: center;
-    background: #1B1B1B;
-    align-items: center;
+  text-align: center;
+  background: #1b1b1b;
+  align-items: center;
 }
 .section-12-box {
-width: 32.3%;
-height: 303px;
+  width: 32.3%;
+  height: 303px;
 
-padding:40px 0 65px 0;
+  padding: 40px 0 65px 0;
 }
 .mgt-20 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .form {
-    display: flex;
-    justify-content: center;
-     height: 70px;
-     margin-top:40px;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  margin-top: 40px;
 }
 .email {
-height: 70px;
-background: #FFFFFF;
-box-shadow: 0px 0px 0px #FC0A7E;
-border-radius: 3px 0px 0px 3px;
-width: 311px;
-padding-left:20px;
-font-family: 'Gothic A1';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-
+  height: 70px;
+  background: #ffffff;
+  box-shadow: 0px 0px 0px #fc0a7e;
+  border-radius: 3px 0px 0px 3px;
+  width: 311px;
+  padding-left: 20px;
+ font-family: 'Gothic A1', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }
 .btn-changes {
-height: 70px;
-background: #FC0A7E;
-border-radius: 0px 3px 3px 0px;
-width:154px;
+  height: 70px;
+  background: #fc0a7e;
+  border-radius: 0px 3px 3px 0px;
+  width: 154px;
+   cursor: pointer;
 }
+/* Footer */
+footer {
+  width: 100%;
+  height: 242px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background: #1B1B1B;
+  align-items: center;
+
+}
+.footer-logo {
+  width: 136px;
+  height: 104px;
+}
+.footer-text {
+    height: 78px;
+    width:39.93%;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-text ul {
+   list-style: none;
+   display: flex;
+    justify-content: center;
+    gap:30px;
+}
+
+.footer-text li a{
+  text-decoration: none;
+font-family: 'Gothic A1', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+text-align: center;
+color: #6B6B6B;
+}
+
+
