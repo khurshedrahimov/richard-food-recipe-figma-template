@@ -172,6 +172,7 @@ nav ul li a {
   gap: 160px;
   /* align-items: center; */
   text-align: center;
+  padding-top: 80px;
 }
 /* Continer-1 */
 .container {
@@ -179,12 +180,11 @@ nav ul li a {
   height: 637px;
   background-color: white;
   margin-left: 5%;
-  margin-top: 80px;
   display: flex;
   justify-content: center;
 }
 .black {
-    color: black;
+  color: black;
 }
 .text-box {
   height: 261px;
@@ -202,7 +202,7 @@ nav ul li a {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  color: #6b6b6b; 
+  color: #6b6b6b;
   margin-top: -8px;
   /* width:38.76%; */
 }
@@ -218,18 +218,21 @@ nav ul li a {
   height: 637px;
   justify-content: center;
 }
-.mgt-80 {
-    margin-top: -80px;
-}
+/* .mgt-80 {
+  margin-top: 80px;
+} */
 .reverse {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .h-change-cont1 {
-    height: 469px;
+  height: 469px;
 }
 .h-change-cont2 {
-    height: 508px;
+  height: 508px;
+}
+.h-change-cont6 {
+  height: 414px;
 }
 
 /* Container4 */
@@ -241,25 +244,71 @@ nav ul li a {
   margin-top: -1px;
   display: flex;
   flex-direction: row;
-   justify-content: center; 
+  justify-content: center;
+    /* margin-top:-80px; */
 }
 .menu-box1 {
-    width:30%;
-    height: 209px;
+  width: 30%;
+  height: 209px;
 }
 .title2 {
-    font-family: 'Gothic A1';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 24px;
-color: #000000;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
 }
 
 .mg-group {
-    margin-top: 40.32px;
-    margin-bottom: 17px;
+  margin-top: 40.32px;
+  margin-bottom: 17px;
 }
 .mg-para {
-margin: 0 30px 0 31px;
+  margin: 0 30px 0 31px;
+}
+.container3 {
+  width: 90%;
+  height: 134px;
+  background-color: white;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* margin-top:-80px; */
+}
+.tx1 {
+     width: 22.5%;
+  height: 134px;
+
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.title3 {
+font-family: 'Gothic A1';
+font-style: normal;
+font-weight: 400;
+font-size: 59px;
+line-height: 90px;
+text-align: center;
+color: #333333;
+}
+.font-weight {
+    font-weight: 400;
+}
+
+.text-box-mod {
+  height: 381px;
+  width: 31.25%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 58px;
+  text-align: left;
+  gap: 30px;
+  align-self: center;
+  margin-right: 20px;
+}
+.pd-62 {
+    padding-right:62px;
 }
