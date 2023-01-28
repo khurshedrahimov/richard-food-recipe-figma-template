@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 main {
@@ -124,42 +125,99 @@ nav ul li a {
 }
 /* Second Section */
 .second-sec {
-    width:100%;
-    height: 957px;
-  background: #1B1B1B;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: end;
-    gap:55px;
-
+  width: 100%;
+  height: 957px;
+  background: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+  gap: 55px;
 }
 .second-sec-top {
-width: 700px;
-height: 221px;
-display: flex;
- flex-direction: column;
-justify-content: end;
- 
+  width: 700px;
+  height: 221px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 .txt-gray {
-    font-family: 'Gothic A1';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 20px;
-text-align: center;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: #A8A8A8;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* text-align: center; */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a8a8a8;
 }
-.title1 {    
-font-family: 'Gothic A1';
-font-style: normal;
-font-weight: 400;
-font-size: 38px;
-line-height: 48px;
-text-align: center;
-color: #FFFFFF;
+.title1 {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 48px;
+  /* text-align: center; */
+  color: #ffffff;
+}
+/* 3rd section */
+.big-container {
+  width: 100%;
+  height: 4739.73px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  gap: 160px;
+  /* align-items: center; */
+  text-align: center;
+}
+/* Continer-1 */
+.container {
+  width: 90%;
+  height: 637px;
+  background-color: white;
+  margin-left: 5%;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.text-box {
+  height: 261px;
+  width: 31.25%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 58px;
+  text-align: left;
+  gap: 30px;
+  align-self: center;
+}
+.paragraph1 {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #6b6b6b;
+  /* text-align: justify; */
+  margin-top: -8px;
+}
+.image-box {
+  width: 38.75%;
+  height: 637px;
+  justify-content: center;
+}
+.mgt-80 {
+    margin-top: -80px;
+}
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.h-change-cont1 {
+    height: 469px;
+}
+.h-change-cont2 {
+    height: 508px;
 }
