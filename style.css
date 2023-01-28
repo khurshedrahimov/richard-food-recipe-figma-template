@@ -307,8 +307,16 @@ color: #333333;
   text-align: left;
   gap: 30px;
   align-self: center;
+
+}
+.mg-20 {
   margin-right: 20px;
 }
 .pd-62 {
     padding-right:62px;
 }
+.pd-23 {
+    padding-top:62px;
+}
+
+/* Container 8 */
