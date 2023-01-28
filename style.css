@@ -320,3 +320,51 @@ color: #333333;
 }
 
 /* Container 8 */
+.container4 {
+   width: 90%;
+height: 480px; 
+display: flex;
+flex-direction: column;
+gap:65.86px;
+background-color: white;
+align-self: center;
+
+}
+.quote-box {
+width: 50%;
+height: 374.14px; 
+display: flex;
+flex-direction: column;
+background-color: white;
+align-self: center;
+text-align: center;
+
+}
+.paragraph2 {
+    font-family: 'Gothic A1';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+text-align: center;
+color: #6B6B6B;
+}
+.font-weight2 {
+    font-weight: 700;
+}
+.newspaper {
+    display: flex;
+    justify-content: center;
+    gap:70px;
+}
+.quote-image {
+    width:58.03px;
+    height:48.62px;
+    align-self: center;
+}
+.mg-65 {
+    margin-top: 65.57px;
+}
+.mg-17 {
+    margin-top: 17px;
+}
