@@ -231,3 +231,35 @@ nav ul li a {
 .h-change-cont2 {
     height: 508px;
 }
+
+/* Container4 */
+.container2 {
+  width: 90%;
+  height: 209px;
+  background-color: white;
+  margin-left: 5%;
+  margin-top: -1px;
+  display: flex;
+  flex-direction: row;
+   justify-content: center; 
+}
+.menu-box1 {
+    width:30%;
+    height: 209px;
+}
+.title2 {
+    font-family: 'Gothic A1';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+color: #000000;
+}
+
+.mg-group {
+    margin-top: 40.32px;
+    margin-bottom: 17px;
+}
+.mg-para {
+margin: 0 30px 0 31px;
+}
